@@ -1,0 +1,90 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.widecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    padding: .5rem;
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 35%; /* Adjust the width as needed */
+    font-size: 1.1rem;
+}
+
+.widecard:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    color: #fff;
+    background: #04bade;
+}
+
+.widecard img {
+    width: 35%;
+    height: 100%; /* Allow the height to adjust proportionally based on the width */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+.icon {
+    width: 100px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.compdet {
+    flex: 1;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+    overflow: hidden;
+}
+
+.skills ul {
+    display: flex;
+    background-color: #04bade;
+    color: #333;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    
+}
+
+.skills ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Projectcard {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0.3rem;
+    transition: 0.5s;
+    border-radius: 10px;
+    max-width: 100%; /* Set maximum width to 100% of the parent container */
+    width: 80vw; /* Set width to 80% of the viewport width */
+}
+
+.Projectcard img {
+    width: 30%;
+    height: auto; /* Allow the height to adjust proportionally based on the width */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+.Projectcard:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    color: #fff;
+    background: #04bade;
+}

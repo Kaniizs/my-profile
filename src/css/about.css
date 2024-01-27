@@ -1,0 +1,41 @@
+.about {
+    text-align: center;
+}
+
+.subtopic {
+    margin: 10px 10px 30px 10px !important;
+    font-size: 5rem;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, #04adbe, #93a9d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.profilepic {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Adjust the margin between the image and text */
+}
+
+.text {
+    font-size: 1.5rem;
+    max-width: 600px; /* Adjust the maximum width of the text */
+}
+
+p {
+    font-size: var(--fontsize-p);
+    margin: 20px;
+}
+
+.text2 {
+    margin-top: 1rem;
+    font-weight: bold;
+}

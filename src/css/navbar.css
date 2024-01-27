@@ -1,0 +1,56 @@
+/* navbar.css */
+nav {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initial position outside the viewport */
+  width: 250px;
+  height: 100%;
+  background-color: #04abde;
+  transition: left 0.3s ease; /* Add a smooth transition effect */
+}
+
+nav ul {
+  font-size: var(--fontsize-nav);
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li {
+  margin: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #333; /* Change the color on hover if needed */
+}
+.nav-active {
+  left: 0; /* Slide the navbar back to the viewport */
+}
+
+.nav-inactive {
+  left: -250px; /* Slide the navbar outside the viewport */
+}
+
+.sidebar-toggle {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: transparent;
+  border-color: transparent;
+  color: hsl(205, 77%, 32%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.active {
+  font-weight: bolder;
+}
+
