@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 48rem) {
     .widecard {
-        width: 70%;
+        width: 100%;
         margin: 1rem;
         font-size: 0.75rem;
     }
