@@ -1,7 +1,7 @@
 import React from "react";
 
 const Skillsbox = () => {
-    const myskills = ['React', 'JavaScript', 'HTML', 'CSS', 'Python', 'C++', 'Java', 'SQL', 'Git', 'GitHub', 'Selenium', 'MongoDB', 'Django'];
+    const myskills = ['Python', 'JavaScript/TypeScript', 'java', 'C++', 'React', 'Node.js', 'MongoDB', 'MySQL', 'HTML', 'CSS', 'Git', 'GitHub', 'Vercel', 'Scrum', 'Agile'];
 
     return (
         <div className="condiv skills">

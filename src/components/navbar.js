@@ -40,6 +40,7 @@ class Navbar extends Component {
             <NavMenu item="Home" tolink="/" activec={this.activeItem} />
             <NavMenu item="About" tolink="/about" activec={this.activeItem}/>
             <NavMenu item="Education" tolink="/education" activec={this.activeItem}/>
+            <NavMenu item="Skills" tolink="/skills" activec={this.activeItem} />
             <NavMenu item="Project" tolink="/projects" activec={this.activeItem}/>
             <NavMenu item="Contact" tolink="/contact" activec={this.activeItem} />
           </ul>
