@@ -3,7 +3,7 @@
 }
 
 .subtopic {
-    margin: 10px 10px 30px 10px !important;
+    margin: 0.625rem 0.625rem 1.875rem 0.625rem !important;
     font-size: 5rem;
     font-weight: bolder;
     background-image: linear-gradient(to left, #04adbe, #93a9d3);
@@ -16,23 +16,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .profilepic {
     max-width: 100%;
     height: auto;
-    margin-right: 20px; /* Adjust the margin between the image and text */
+    margin-right: 1.25rem; /* Adjust the margin between the image and text */
 }
 
 .text {
     font-size: 1.5rem;
-    max-width: 600px; /* Adjust the maximum width of the text */
+    max-width: 37.5rem; /* Adjust the maximum width of the text */
 }
 
 p {
     font-size: var(--fontsize-p);
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .text2 {
@@ -40,21 +40,21 @@ p {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     .content {
         flex-direction: column;
     }
 
     .profilepic {
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     .text {
         font-size: 1rem;
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     .subtopic {
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 }

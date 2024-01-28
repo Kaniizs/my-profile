@@ -2,8 +2,8 @@
 nav {
   position: fixed;
   top: 0;
-  left: -250px; /* Initial position outside the viewport */
-  width: 250px;
+  left: -15.625rem; /* Initial position outside the viewport */
+  width: 15.625rem;
   height: 100%;
   background-color: #04abde;
   transition: left 0.3s ease; /* Add a smooth transition effect */
@@ -17,7 +17,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 40px;
+  margin: 2.5rem;
 }
 
 nav ul li a {
@@ -36,7 +36,7 @@ nav ul li a:hover {
 }
 
 .nav-inactive {
-  left: -250px; /* Slide the navbar outside the viewport */
+  left: -15.625rem; /* Slide the navbar outside the viewport */
 }
 
 .sidebar-toggle {
@@ -55,7 +55,7 @@ nav ul li a:hover {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   nav ul {
     font-size: 1.2rem;
   }

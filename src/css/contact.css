@@ -7,12 +7,12 @@
 .contact-info a {
     text-decoration: none;
     color: #333;
-    font-size: 1.2rem;
-    margin: 10px;
+    font-size: 1.3rem;
+    margin: 0.625rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     .contact-info a {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }

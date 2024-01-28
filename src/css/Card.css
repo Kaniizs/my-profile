@@ -10,17 +10,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 30px 0;
+    margin: 0.625rem 0 1.875rem 0;
     padding: .5rem;
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 35%;
     /* Adjust the width as needed */
     font-size: 1.1rem;
 }
 
 .widecard:hover {
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    box-shadow: 0 0 0.688rem rgba(33, 33, 33, .2);
     color: #fff;
     background: #04bade;
 }
@@ -31,9 +31,9 @@
 }
 
 .icon {
-    width: 100px;
+    width: 6.25rem;
     height: auto;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .compdet {
@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     overflow: hidden;
     width: 50%;
     justify-content: center;
@@ -61,9 +61,9 @@
 }
 
 .skills ul li {
-    margin: 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
     background: #04bade;
     color: #fff;
     font-size: 1.1rem;
@@ -78,10 +78,10 @@
 .Projectcard {
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 1rem 0;
     padding: 0.3rem;
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 1rem;
     max-width: 100%;
     width: 80vw;
 }
@@ -93,7 +93,7 @@
 }
 
 .Projectcard:hover {
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    box-shadow: 0 0 1rem rgba(33, 33, 33, .2);
     color: #fff;
     background: #04bade;
 }
@@ -102,7 +102,7 @@
 @media screen and (max-width: 768px) {
     .widecard {
         width: 70%;
-        margin: 10px;
+        margin: 1rem;
         font-size: 0.75rem;
     }
 
@@ -125,8 +125,8 @@
     }
 
     .skills ul li {
-        margin: 5px;
-        padding: 5px;
+        margin: 0.5rem;
+        padding: 0.5rem;
         font-size: 0.8rem;
     }
 }
