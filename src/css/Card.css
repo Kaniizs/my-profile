@@ -52,14 +52,17 @@
     padding: 0.3rem;
     transition: 0.5s;
     border-radius: 1rem;
-    max-width: 100%;
     width: 80vw;
+    border: #04bade 0.2rem solid;
+    font-size: 1.3rem;
 }
 
 .Projectcard img {
     width: 30%;
     height: auto;
     object-fit: cover;
+    border-radius: 1rem;
+
 }
 
 .Projectcard:hover {
@@ -68,6 +71,13 @@
     background: #04bade;
 }
 
+.Projectcard h3 {
+    font-weight: 500;
+}
+
+.Projectcard h4 {
+    font-weight: 400;
+}
 
 @media screen and (max-width: 48rem) {
     .widecard {
@@ -82,7 +92,7 @@
 
     .Projectcard {
         width: 90vw;
-        font-size: 0.75rem;
+        font-size: 0.5rem;
     }
 
     .Projectcard img {
