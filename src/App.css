@@ -51,4 +51,19 @@
   font-size: 2.0em; /* Adjust the font size on hover if desired */
 }
 
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .condiv {
+    padding: 50px;
+    flex: var(--condiv-flex);
+  }
+
+  .social {
+    flex: 1;
+  }
+}
+
 

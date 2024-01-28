@@ -13,7 +13,7 @@ nav ul {
   font-size: var(--fontsize-nav);
   text-align: center;
   list-style: none;
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 nav ul li {
@@ -54,3 +54,9 @@ nav ul li a:hover {
   font-weight: bolder;
 }
 
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    font-size: 1.2rem;
+  }
+}

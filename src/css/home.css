@@ -31,3 +31,17 @@
    background-clip: text;
    -webkit-background-clip: text;
  }
+
+ @media screen and (max-width: 768px) {
+   .profilepic {
+     width: 200px;
+   }
+
+   .typingeffect {
+     font-size: 2rem;
+   }
+
+   .welcome-message {
+     font-size: 3rem;
+   }
+ }

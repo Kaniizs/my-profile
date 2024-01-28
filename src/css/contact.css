@@ -10,3 +10,9 @@
     font-size: 1.2rem;
     margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-info a {
+        font-size: 1rem;
+    }
+}

@@ -24,14 +24,14 @@
 
 .widecard img {
     width: 35%;
-    height: 100%; /* Allow the height to adjust proportionally based on the width */
-    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    height: 100%;
+    object-fit: cover;
 }
 
 .icon {
-    width: 100px; /* Adjust the width of the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Adjust as needed */
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .compdet {
@@ -44,22 +44,26 @@
     align-items: center;
     margin-top: 1px;
     overflow: hidden;
+    width: 100%;
 }
 
 .skills ul {
     display: flex;
-    background-color: #04bade;
-    color: #333;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .skills ul li {
-    list-style: none;
-    margin: 30px;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #04bade;
+    color: #fff;
 }
-
 .project {
     display: flex;
     flex-direction: column;
@@ -73,14 +77,14 @@
     padding: 0.3rem;
     transition: 0.5s;
     border-radius: 10px;
-    max-width: 100%; /* Set maximum width to 100% of the parent container */
-    width: 80vw; /* Set width to 80% of the viewport width */
+    max-width: 100%;
+    width: 80vw;
 }
 
 .Projectcard img {
     width: 30%;
-    height: auto; /* Allow the height to adjust proportionally based on the width */
-    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    height: auto;
+    object-fit: cover;
 }
 
 .Projectcard:hover {
@@ -88,3 +92,34 @@
     color: #fff;
     background: #04bade;
 }
+
+
+@media screen and (max-width: 768px) {
+    .widecard {
+        width: 80%;
+    }
+
+    .widecard img {
+        width: 50%;
+    }
+
+    .Projectcard {
+        width: 90vw;
+    }
+
+    .Projectcard img {
+        width: 50%;
+    }
+
+    .skills {
+        width: 80%;
+        margin-top: 0; /* Remove the margin-top */
+    }
+
+    .skills ul li {
+        margin: 5px;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+}
+

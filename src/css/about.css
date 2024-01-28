@@ -39,3 +39,22 @@ p {
     margin-top: 1rem;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .profilepic {
+        margin: 20px;
+    }
+
+    .text {
+        font-size: 1rem;
+        margin: 20px;
+    }
+
+    .subtopic {
+        font-size: 3rem;
+    }
+}

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../css/contact.css";
 
+import Social from "../components/Social";
+
 class Contact extends Component {
     render() {
         return (
@@ -12,6 +14,7 @@ class Contact extends Component {
                     <p><i className="fab fa-line"></i> Line : Meteoriteism</p>
                     <p><i className="fab fa-facebook"></i> Facebook : Isaraa Phadungprasertdkul</p>
                 </div>
+                <Social />
             </div>
         );
     }
