@@ -9,7 +9,7 @@ class Education extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            myskills: ['React', 'JavaScript', 'HTML', 'CSS', 'Python', 'C++', 'Java', 'SQL', 'Git', 'GitHub', 'Selenium']
+            myskills: ['React', 'JavaScript', 'HTML', 'CSS', 'Python', 'C++', 'Java', 'SQL', 'Git', 'GitHub', 'Selenium', 'MongoDB', 'Django']
         };
     }
 
