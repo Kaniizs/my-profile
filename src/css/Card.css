@@ -55,6 +55,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    border: 1px solid #04bade;
 }
 
 .skills ul li {
@@ -97,33 +98,32 @@
 
 
 @media screen and (max-width: 768px) {
-        .widecard {
+    .widecard {
         width: 80%;
         margin: 10px;
-        }   
+    }   
 
-        .widecard img {
-            width: 50%;
-        }
-
-        .Projectcard {
-            width: 90vw;
-            font-size: 0.75rem;
-        }
-
-        .Projectcard img {
-            width: 50%;
-        }
-
-        .skills {
-            width: 80%;
-            margin-top: 0;
-            /* Remove the margin-top */
-        }
-
-        .skills ul li {
-            margin: 5px;
-            padding: 5px;
-            font-size: 0.8rem;
-        }
+    .widecard img {
+        width: 50%;
     }
+
+    .Projectcard {
+        width: 90vw;
+        font-size: 0.75rem;
+    }
+
+    .Projectcard img {
+        width: 50%;
+    }
+
+    .skills {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .skills ul li {
+        margin: 5px;
+        padding: 8px; /* Adjusted padding for better spacing on smaller screens */
+        font-size: 0.9rem; /* Increased font size for better readability on smaller screens */
+    }
+}
