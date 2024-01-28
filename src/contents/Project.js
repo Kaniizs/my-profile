@@ -22,13 +22,13 @@ class Project extends Component {
             {
                 title: "QA-RPG",
                 role: "Fullstack Developer | Django, TailwindCSS",
-                desc: "QA-RPG is a project that has recently released a groundbreaking text-based RPG game. Featuring a unique blend of classic RPG elements and modern technology, this game is sure to be a hit with gamers of all ages.",
+                desc: "QA-RPG is a project that is a text-based RPG game. The game aims to be educative by using question answering system while maintaining the features that makes up an RPG.",
                 image: QA,
             },
             {
                 title: "Loved-Tree",
                 role: "Frontend Developer | React",
-                desc: "Loved-Tree is a business dedicated to creating innovative products to improve the sustainability of our plant. Our most recent project is the Digital Watering System, designed to reduce water consumption while maximizing plant growth. ",
+                desc: "Loved-Tree is a project that combined between 3 modules which are hardware, backend, and frontend. The main purpose of this project is to help people to take care of their plants anywhere and anytime by using the UI app.",
                 image: lovedtree,
             },
             {
