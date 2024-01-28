@@ -1,0 +1,30 @@
+.socialcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.625rem 0 1.875rem 0;
+    padding: 0.5rem;
+    transition: 0.5s;
+    border-radius: 0.625rem;
+    width: 35%; 
+    font-size: 1.3rem;
+}
+
+.socialcard:hover {
+    box-shadow: 0 0 0.688rem rgba(33, 33, 33, .2);
+    color: #fff;
+    background: #04bade;
+}
+
+
+.socialcard p {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0.625rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .socialcard p {
+        font-size: 1.1rem;
+    }
+}
