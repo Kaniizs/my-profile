@@ -26,7 +26,6 @@
 .widecard img {
     width: 40%;
     height: 100%;
-    object-fit: cover;
 }
 
 .icon {
@@ -45,7 +44,7 @@
     align-items: center;
     margin-bottom: 50px;
     overflow: hidden;
-    width: 70%;
+    width: 100%;
     justify-content: center;
 }
 
@@ -109,6 +108,7 @@
 
         .Projectcard {
             width: 90vw;
+            font-size: 0.75rem;
         }
 
         .Projectcard img {
