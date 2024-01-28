@@ -1,0 +1,42 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.125rem;
+    overflow: hidden;
+    width: 50%;
+    justify-content: center;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.skills ul li {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    background: #04bade;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .skills {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .skills ul li {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+}
