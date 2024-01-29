@@ -11,8 +11,8 @@ class Education extends Component {
         return (
             <div className="condiv education">
                 <h1 className="subtopic">My Education</h1>
-                <Widecard title="Rayongwittayakom School" where="Rayong, Thailand" from="2015" to="2021" gpa="3.52" image={RYW} />
-                <Widecard title="Kasetsart University" where="Bangkok, Thailand" from="2021" to="Present" gpa="2.86" image={KU} />
+                <Widecard title="Rayongwittayakom School" where="Rayong, Thailand" from="2015" to="2021"  image={RYW} />
+                <Widecard title="Kasetsart University" where="Bangkok, Thailand" from="2021" to="Present" image={KU} />
                 <Social />
             </div>
         );
